@@ -27,6 +27,7 @@ export const useUserStore = defineStore('user', {
     async getUserInfo() {
       try {
         const res = await getUser()
+        console.log('res', res)
         if (res.code === 0) {
           const { id, name, avatar, role } = res.data
           this.userInfo = { id, name, avatar, role }
