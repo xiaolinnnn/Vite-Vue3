@@ -10,6 +10,7 @@
         "lint:fix": "eslint --fix --ext .js,.vue ."
     },
     "dependencies": {
+        "element-plus": "^2.2.28",
         "axios": "^0.27.2",
         "pinia": "^2.0.16",
         "vue": "^3.2.25",
